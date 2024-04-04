@@ -18,22 +18,22 @@ export default function LargeScreenNavbar() {
                             Home
 						</Link>
 						<Link
-							href="/project-one"
+							href="/step-one"
 							className={cn(
 								"hover:underline sm:py-6",
-								currentPath === "/project-one" && "font-bold",
+								currentPath === "/step-one" && "font-bold",
 							)}
 						>
-                            Project one
+                            Step one
 						</Link>
 						<Link
-							href="/project-two"
+							href="/step-two"
 							className={cn(
 								"hover:underline sm:py-6",
-								currentPath === "/project-two" && "font-bold",
+								currentPath === "/step-two" && "font-bold",
 							)}
 						>
-                            Project two
+                            Step two
 						</Link>
 		</header>
 	);

@@ -11,8 +11,10 @@ export default function ProjectOne() {
         <Canvas className="h-full">
             <directionalLight position={[0, 0, 2]} intensity={.5}/>
             <ambientLight intensity={.1}/>
-            {/* <pointLight  position={[10, 10, 10]} /> */}
-            <Shpere position={new Vector3(0, 0, 9)} color="red" size={[1, 1, 1]}/>
+            <pointLight  position={[10, 10, 10]} />
+            <Torus position={new Vector3(4, 0, 0)} color="red" size={[.8, .3, 30, 30]}/>
+            <Shpere position={new Vector3(0, 0, 0)} color="orange" size={[1, 20, 20]}/>
+            <TorusKnot position={new Vector3(-4 , 0, 0)} color="green" size={[.8, .3, 30, 30]}/>
         </Canvas>
     )
 }
