@@ -35,6 +35,15 @@ export default function LargeScreenNavbar() {
 						>
                             Step two
 						</Link>
+						<Link
+							href="/step-three"
+							className={cn(
+								"hover:underline sm:py-6",
+								currentPath === "/step-three" && "font-bold",
+							)}
+						>
+                            Step Three
+						</Link>
 		</header>
 	);
 }
